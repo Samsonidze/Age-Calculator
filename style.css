@@ -100,7 +100,7 @@ span{
     .input-box input::-webkit-calendar-picker-indicator{
         
        
-        background-size: 30px;
+        background-size: auto;
         
         
     }
@@ -138,7 +138,7 @@ span{
     .input-box input::-webkit-calendar-picker-indicator{
         
        
-        background-size: 30px;
+        background-size: auto;
         
         
     }
@@ -157,7 +157,7 @@ span{
     }
     .calculator{
         
-        max-width: 300px;
+        max-width: 350px;
         margin-left: 10%;
         margin-top: 10%;
     }
@@ -169,15 +169,15 @@ span{
     .input-box input{
         padding: 10px 30px;
        
-        font-size: 10px;
+        font-size: 15px;
 
         
     }
     .input-box input::-webkit-calendar-picker-indicator{
         
-        right: -10px;
+        /* right: -10px; */
        
-        background-size: 20px;
+        background-size: auto;
         
         
     }
@@ -198,7 +198,7 @@ span{
     .calculator{
         
         max-width: 300px;
-        margin-left: 10%;
+        margin-left: 5%;
         margin-top: 10%;
     }
     .input-box{
@@ -209,22 +209,21 @@ span{
     .input-box input{
         padding: 10px 30px;
        
-        font-size: 10px;
+        font-size: 15px;
 
         
     }
     .input-box input::-webkit-calendar-picker-indicator{
         
-        right: -10px;
+        /* right: -10px; */
        
-        background-size: 20px;
-        
+        background-size: auto;        
         
     }
     
     .input-box button{
         
-        padding: 10px 20px;
+        padding: 10px 10px;
        
     }
     
