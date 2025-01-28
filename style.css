@@ -37,17 +37,24 @@ span{
     align-items: center;
 }
 
-.input-box input{
+.input-box input {
     flex: 1;
-    margin-right: 20px;
-    padding: 14px 20px;
-    border: 0;
-    outline: 0;
-    font-size: 18px;
+    padding: 14px;
+    font-size: 16px; /* Avoid zooming */
+    width: 100%; /* Responsive */
+    max-width: 100%;
     border-radius: 5px;
-    position: relative;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 20px;
+
 }
 
+.input-box input::-webkit-calendar-picker-indicator {
+    background-size: auto; /* Default size */
+    cursor: pointer;
+}
 .input-box button{
     background: #ffff76;
     border: 0;
@@ -59,18 +66,7 @@ span{
     cursor: pointer;
 }
 
-.input-box input::-webkit-calendar-picker-indicator{
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: auto;
-    position: absolute;
-    background-position: calc(100% - 10px);
-    background-size: 30px;
-    cursor: pointer;
-    height: auto;
-}
+
 
 #result{
     font-size: 20px;
